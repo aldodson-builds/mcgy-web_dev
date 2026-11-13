@@ -1,0 +1,45 @@
+        body {
+            background-color: #000000;
+            background-image: radial-gradient(circle at 50% 0%, #1a0000 0%, #000000 80%);
+            color: #e5e5e5;
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* Neon & Gold Effects */
+        .neon-text {
+            color: #fff;
+            text-shadow: 0 0 5px #e10600, 0 0 15px #e10600, 0 0 30px #e10600;
+        }
+        .neon-border {
+            border-color: #e10600;
+            box-shadow: 0 0 10px rgba(225, 6, 0, 0.5), inset 0 0 10px rgba(225, 6, 0, 0.3);
+        }
+        .neon-border:hover {
+            box-shadow: 0 0 20px rgba(225, 6, 0, 0.8), inset 0 0 15px rgba(225, 6, 0, 0.5);
+        }
+        
+        .gold-text {
+            background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .gold-border {
+            border-color: #d4af37;
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #111; }
+        ::-webkit-scrollbar-thumb { background: #e10600; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #ff1a1a; }
+
+        .glass-panel {
+            background: rgba(17, 17, 17, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.05);
+        }
